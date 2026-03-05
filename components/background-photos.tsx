@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const photos = [
-  { src: "/images/training-1.jpg", alt: "Miras College students using AI technology in classroom", top: "3%", left: "1%", rotate: "-4deg", width: 320, height: 220 },
-  { src: "/images/training-2.jpg", alt: "Miras College AI seminar with interactive display", top: "5%", right: "1%", rotate: "3deg", width: 300, height: 210 },
-  { src: "/images/training-3.jpg", alt: "Miras College students collaborating with AI tools", bottom: "5%", left: "2%", rotate: "3deg", width: 310, height: 215 },
-  { src: "/images/training-4.jpg", alt: "Teacher demonstrating AI technology at Miras College", bottom: "3%", right: "1%", rotate: "-3deg", width: 330, height: 225 },
+  { src: "/images/training-1.jpg", alt: "Primary school education", top: "3%", left: "1%", rotate: "-4deg", width: 320, height: 220 },
+  { src: "/images/training-2.jpg", alt: "Preschool education", top: "5%", right: "1%", rotate: "3deg", width: 300, height: 210 },
+  { src: "/images/training-3.jpg", alt: "Law profession", bottom: "5%", left: "2%", rotate: "3deg", width: 310, height: 215 },
+  { src: "/images/training-4.jpg", alt: "Translation profession", bottom: "3%", right: "1%", rotate: "-3deg", width: 330, height: 225 },
 ];
 
 export function BackgroundPhotos() {
