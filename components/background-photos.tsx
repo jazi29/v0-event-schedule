@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const photos = [
-  { src: "/images/training-1.jpg", alt: "Students in a modern classroom", top: "3%", left: "1%", rotate: "-4deg", width: 320, height: 220 },
-  { src: "/images/training-2.jpg", alt: "Seminar training session", top: "5%", right: "1%", rotate: "3deg", width: 300, height: 210 },
-  { src: "/images/training-3.jpg", alt: "Students collaborating on a project", bottom: "5%", left: "2%", rotate: "3deg", width: 310, height: 215 },
-  { src: "/images/training-4.jpg", alt: "Teacher explaining at whiteboard", bottom: "3%", right: "1%", rotate: "-3deg", width: 330, height: 225 },
+  { src: "/images/training-1.jpg", alt: "Miras College students using AI technology in classroom", top: "3%", left: "1%", rotate: "-4deg", width: 320, height: 220 },
+  { src: "/images/training-2.jpg", alt: "Miras College AI seminar with interactive display", top: "5%", right: "1%", rotate: "3deg", width: 300, height: 210 },
+  { src: "/images/training-3.jpg", alt: "Miras College students collaborating with AI tools", bottom: "5%", left: "2%", rotate: "3deg", width: 310, height: 215 },
+  { src: "/images/training-4.jpg", alt: "Teacher demonstrating AI technology at Miras College", bottom: "3%", right: "1%", rotate: "-3deg", width: 330, height: 225 },
 ];
 
 export function BackgroundPhotos() {
@@ -34,21 +34,26 @@ export function BackgroundPhotos() {
         </div>
       ))}
 
-      {/* Subtle education-themed SVG icons scattered */}
+      {/* AI & technology themed SVG icons scattered */}
+      {/* Brain / AI icon */}
       <svg className="absolute left-[15%] top-[30%] h-20 w-20 text-primary/10" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+        <path d="M21.33 12.91c.09 0 .09-.06.09-.09 0-.39-.18-.75-.48-.99a1.47 1.47 0 00-.15-.87c-.15-.3-.39-.48-.63-.57.03-.09.06-.18.06-.27a1.5 1.5 0 00-.63-1.23 1.35 1.35 0 00-.33-1.02c-.21-.27-.51-.45-.84-.48a1.46 1.46 0 00-.81-1.11c-.06-.03-.12-.06-.18-.06A1.47 1.47 0 0016.5 5.5V5a1.5 1.5 0 00-3 0v.09a1.47 1.47 0 00-.93.72 1.5 1.5 0 00-.57.57V4a1.5 1.5 0 00-3 0v5.26c-.18-.21-.42-.36-.69-.42a1.5 1.5 0 00-1.74.72l-.03.06a1.5 1.5 0 00-.09.21l-1.68 5.31a4.5 4.5 0 001.11 4.59l1.71 1.71A4.47 4.47 0 0010.77 23h4.95a4.5 4.5 0 004.47-4.04l.36-3.63c.03-.18.03-.33 0-.51a1.5 1.5 0 00.78-.91z" />
       </svg>
+      {/* Chip / processor icon */}
       <svg className="absolute right-[12%] top-[45%] h-24 w-24 text-primary/[0.08]" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z" />
+        <path d="M6 4h12v2h2V4a2 2 0 00-2-2H6a2 2 0 00-2 2v2h2V4zm0 16H6v2a2 2 0 002 2h12a2 2 0 002-2v-2h-2v2H6v-2zM20 8h2v8h-2V8zM2 8h2v8H2V8zm7-1a1 1 0 00-1 1v8a1 1 0 001 1h6a1 1 0 001-1V8a1 1 0 00-1-1H9zm1 2h4v6h-4v-6z" />
       </svg>
+      {/* Robot icon */}
       <svg className="absolute left-[8%] bottom-[35%] h-16 w-16 text-primary/10" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+        <path d="M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1.34-3-3-3S9 3.34 9 5H6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-3-3-3zM7.5 11.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5S9.83 13 9 13s-1.5-.67-1.5-1.5zM16 17H8v-2h8v2zm-1-4c-.83 0-1.5-.67-1.5-1.5S14.17 10 15 10s1.5.67 1.5 1.5S15.83 13 15 13z" />
       </svg>
+      {/* Network / connection icon */}
       <svg className="absolute right-[18%] bottom-[25%] h-14 w-14 text-primary/10" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+        <path d="M17 16l-4-4V8.82C14.16 8.4 15 7.3 15 6c0-1.66-1.34-3-3-3S9 4.34 9 6c0 1.3.84 2.4 2 2.82V12l-4 4H3v5h5v-3.05l4-4.2 4 4.2V21h5v-5h-4z" />
       </svg>
+      {/* Cloud AI icon */}
       <svg className="absolute left-[45%] top-[15%] h-12 w-12 text-primary/[0.07]" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6 10H6v-2h8v2zm4-4H6v-2h12v2z" />
+        <path d="M19.35 10.04A7.49 7.49 0 0012 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 000 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM10 17l-3.5-3.5 1.41-1.41L10 14.17l5.09-5.09 1.41 1.41L10 17z" />
       </svg>
     </div>
   );
