@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter" }
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
-  title: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен digital құралдар',
-  description: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен digital құралдар — 10-17 наурыз, 2026 жыл',
+  title: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен цифрлық құралдар',
+  description: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен цифрлық құралдар — 10-17 наурыз, 2026 жыл',
   generator: 'v0.app',
   icons: {
     icon: [

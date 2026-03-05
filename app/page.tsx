@@ -18,7 +18,7 @@ export default function Home() {
                 10 — 17 наурыз, 2026 жыл
               </p>
               <h1 className="text-balance font-mono text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl">
-                Оқыту мен тәрбиеде инновациялық тәсілдер мен digital құралдар
+                Оқыту мен тәрбиеде инновациялық тәсілдер мен цифрлық құралдар
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-pretty leading-relaxed text-muted-foreground">
                 Педагогика және психология пәндерінің циклдік комиссиясының
