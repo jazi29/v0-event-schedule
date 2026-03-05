@@ -12,7 +12,7 @@ export function SiteHeader() {
           </div>
           <div>
             <p className="font-mono text-sm font-semibold tracking-tight text-foreground">
-              ПЦК Апталығы
+              Оқыту мен тәрбиеде
             </p>
             <p className="text-xs text-muted-foreground">2026</p>
           </div>

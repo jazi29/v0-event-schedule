@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter" }
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
-  title: 'ПЦК Апталығы 2026',
-  description: 'Педагогика және психология пәндерінің циклдік комиссиясының апталығы кестесі — 10-17 наурыз, 2026 жыл',
+  title: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен digital құралдар',
+  description: 'Оқыту мен тәрбиеде инновациялық тәсілдер мен digital құралдар — 10-17 наурыз, 2026 жыл',
   generator: 'v0.app',
   icons: {
     icon: [

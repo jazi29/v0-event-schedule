@@ -189,12 +189,12 @@ function getDayLabel(date: string): string {
 
 function getDayColor(date: string): string {
   const map: Record<string, string> = {
-    "10.03": "bg-primary/20 text-primary border-primary/30",
-    "11.03": "bg-chart-2/20 text-chart-2 border-chart-2/30",
-    "12.03": "bg-chart-4/20 text-chart-4 border-chart-4/30",
-    "13.03": "bg-chart-5/20 text-chart-5 border-chart-5/30",
-    "16.03": "bg-primary/20 text-primary border-primary/30",
-    "17.03": "bg-chart-2/20 text-chart-2 border-chart-2/30",
+    "10.03": "bg-primary/15 text-primary border-primary/25",
+    "11.03": "bg-chart-2/15 text-chart-2 border-chart-2/25",
+    "12.03": "bg-chart-4/15 text-chart-4 border-chart-4/25",
+    "13.03": "bg-chart-5/15 text-chart-5 border-chart-5/25",
+    "16.03": "bg-primary/15 text-primary border-primary/25",
+    "17.03": "bg-chart-2/15 text-chart-2 border-chart-2/25",
   };
   return map[date] || "bg-secondary text-secondary-foreground";
 }
